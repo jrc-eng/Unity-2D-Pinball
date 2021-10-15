@@ -1,0 +1,77 @@
+{
+    "name": "PinballControls",
+    "maps": [
+        {
+            "name": "Pinball",
+            "id": "aa9ae2fd-5760-4ae4-9598-68ca88c42f0b",
+            "actions": [
+                {
+                    "name": "LeftFlipper",
+                    "type": "Button",
+                    "id": "3e793bd5-e376-49a2-a167-ca2799036900",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RightFlipper",
+                    "type": "Button",
+                    "id": "2b0575fb-d2c9-4b53-bee3-abb500419dab",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Plunger",
+                    "type": "Button",
+                    "id": "4a05e39d-9cac-466b-a3b6-fda533eab16c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "88e550f3-fe9d-4f68-b2a3-d894154268fb",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Pinball",
+                    "action": "LeftFlipper",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "23ff2842-80c7-44ab-8758-31b1a379448c",
+                    "path": "<Keyboard>/m",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Pinball",
+                    "action": "RightFlipper",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1a698c2e-cec8-4e21-8e8f-fa1e9b1a1f4f",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Pinball",
+                    "action": "Plunger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Pinball",
+            "bindingGroup": "Pinball",
+            "devices": []
+        }
+    ]
+}
