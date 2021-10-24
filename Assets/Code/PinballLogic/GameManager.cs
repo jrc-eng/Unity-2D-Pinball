@@ -5,6 +5,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private long score;
+
+    [SerializeField] public int ballCount = 3;
     
     // Start is called before the first frame update
     void Start()

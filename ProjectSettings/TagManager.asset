@@ -8,6 +8,7 @@ TagManager:
   - Flipper
   - GameManager
   - Plunger
+  - BallSpawner
   layers:
   - Default
   - TransparentFX
