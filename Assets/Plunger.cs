@@ -7,14 +7,14 @@ public class Plunger : MonoBehaviour
     
     
     [Header("Controls")]
-    private PinballControls pinballControls;
+    protected PinballControls pinballControls;
     public float charging;
 
 
-    [SerializeField]GameObject ball;
+    [SerializeField]public GameObject ball;
 
     [Header("Launching")]
-    private float launchForce = 100f;
+    protected float launchForce = 100f;
 
 
     // Start is called before the first frame update
@@ -33,6 +33,8 @@ public class Plunger : MonoBehaviour
         {
             Launch();
         }
+
+        
         
     }
 
