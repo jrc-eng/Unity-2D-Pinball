@@ -13,6 +13,8 @@ public class BallManager : MonoBehaviour
     [SerializeField] private bool ballInPlay;
 
     [SerializeField] private BallSpawner ballSpawner;
+
+    [SerializeField] private bool gameOver;
     
     // Start is called before the first frame update
     void Start()
@@ -53,5 +55,11 @@ public class BallManager : MonoBehaviour
     {
         ballInPlay = val;
 
+    }
+
+
+    public void ballIsDead()
+    {
+        
     }
 }
